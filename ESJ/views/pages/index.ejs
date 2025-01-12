@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to set up EJS in a Node.js application using Express</title>
+</head>
+<body>
+    <%- include('../partials/head') %>
+<%- include('../partials/header') %>
+<div class="container">
+    <h1>Hi, I am <%= user.firstName  %> <%= user.lastName %></h1>
+    <h2>Welcome to my Blog</h2>
+</div>
+
+<%- include('../partials/footer') %>
+</body>
+</html>
