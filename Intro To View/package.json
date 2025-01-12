@@ -1,0 +1,15 @@
+{
+  "name": "intro-to-view",
+  "version": "1.0.0",
+  "description": "How To use view engine EJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Don Boy",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}

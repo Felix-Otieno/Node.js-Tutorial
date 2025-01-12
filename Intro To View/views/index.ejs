@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeeksForGeeks EJS Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #4caf50; /* Green background color */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1, p {
+            color: #fff; /* White text color */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to GeeksForGeeks <%= user.name %>!</h1>
+        <p>You are <%= user.age %> years old.</p>
+    </div>
+</body>
+</html>
